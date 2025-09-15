@@ -41,12 +41,12 @@ const ProjectsData = [
   },
   {
     id: "5",
-    name: "Car Rental Website",
-    image: "./car-rental-app.png",
+    name: "Health Care Web application",
+    image: "./crm system_3.png",
     icons: [TbBrandNextjs, BiLogoTypescript, BiLogoTailwindCss, TbApi],
-    description: "This is an online platform that allows users to rent cars for personal or business use.",
-    github: "https://github.com/VijayKumarReddyTalakola/nextjs-car-rental-app",
-    demo: "https://car-rental-application.vercel.app",
+    description: "Dynamic Health is a patient health monitoring platform to create, keep and track patient medical records and checkups history",
+    github: "",
+    demo: "",
   },
   {
     id: "8",

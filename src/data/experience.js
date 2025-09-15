@@ -2,7 +2,7 @@ const ExperienceData = [
   {
     title: "Junior Web Developer",
     company: "Skyline IT Services",
-    duration: "Jul 2018 – Dec 2019",
+    duration: "Jul 2018 – Aug 2020",
     description: [
       "Built user-friendly front-end components using HTML, CSS, JavaScript, and jQuery.",
       "Supported bug fixes and feature improvements in live systems.",
@@ -10,19 +10,9 @@ const ExperienceData = [
     ],
   },
   {
-    title: "Junior Full-Stack Developer",
-    company: "InfoLink Systems",
-    duration: "Jan 2020 – Dec 2020",
-    description: [
-      "Developed and tested core modules of enterprise-level applications under senior supervision.",
-      "Assisted in migrating legacy PHP systems to Node.js and React.js environments.",
-      "Enhanced databases and improved performance with optimized queries."
-    ],
-  },
-  {
     title: "Full-Stack Developer",
     company: "BrightWave Digital Ltd",
-    duration: "Jan 2021 – Dec 2022",
+    duration: "Sep 2020 – Dec 2022",
     description: [
       "Built and maintained modern web platforms with responsive UI/UX using React.js and Next.js.",
       "Automated internal processes, reducing manual work for clients by 30%.",
