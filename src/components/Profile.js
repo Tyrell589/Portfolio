@@ -91,7 +91,7 @@ const Profile = () => {
               {item}
             </p>
           ))}
-          <div
+          {/* <div
             data-aos="zoom-in-up"
             data-aos-duration="2000"
             data-aos-once="false"
@@ -103,7 +103,7 @@ const Profile = () => {
                 Get Resume
               </button>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
       <Wave />

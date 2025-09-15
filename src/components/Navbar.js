@@ -29,11 +29,7 @@ const Navbar = () => {
           to="home"
           className="flex justify-center items-center w-fit"
         >
-          <img
-            className="w-12 h-12 ml-3 cursor-pointer scale-125 lg:scale-150"
-            src={ProfileData.logo}
-            alt={ProfileData.name}
-          />
+          
         </Link>
         <nav
           data-aos="zoom-in"
@@ -83,14 +79,14 @@ const Navbar = () => {
               <BsMoon className="h-5 w-5 text-gray-300" />
             )}
           </button>
-          <a
+          {/* <a
             href={ProfileData.resume}
             target="_blank"
             rel="noreferrer"
             className="leading-none text-white bg-dark-orange py-3 px-10 rounded-lg font-medium text-lg hover:bg-orange-600 transition-colors duration-200"
           >
             Resume
-          </a>
+          </a> */}
         </div>
         {isMenuOpen && (
           <div className="min-h-[calc(100vh-4rem)] absolute inset-x-0 top-16 z-50 transition-all ease-in duration-1000 lg:hidden">
@@ -129,14 +125,14 @@ const Navbar = () => {
                       <BsMoon className="h-5 w-5 text-gray-300" />
                     )}
                   </button>
-                  <a
+                  {/* <a
                     href={ProfileData.resume}
                     target="_blank"
                     rel="noreferrer"
                     className="text-white bg-dark-orange py-2.5 px-10 rounded-lg font-medium text-lg w-fit mx-auto hover:bg-orange-600 transition-colors duration-200"
                   >
                     Resume
-                  </a>
+                  </a> */}
                 </div>
               </nav>
             </div>
