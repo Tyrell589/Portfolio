@@ -42,7 +42,7 @@ const ProjectsData = [
   {
     id: "5",
     name: "Health Care Web application",
-    image: "./crm system_3.png",
+    image: "./health.png",
     icons: [TbBrandNextjs, BiLogoTypescript, BiLogoTailwindCss, TbApi],
     description: "Dynamic Health is a patient health monitoring platform to create, keep and track patient medical records and checkups history",
     github: "",
