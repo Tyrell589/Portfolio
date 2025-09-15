@@ -1,4 +1,4 @@
-import { BiLogoCss3, BiLogoFirebase, BiLogoMongodb, BiLogoReact, BiLogoRedux, BiLogoTailwindCss, BiLogoTypescript, BiLogoShopify } from "react-icons/bi";
+import { BiLogoCss3, BiLogoFirebase, BiLogoMongodb, BiLogoReact, BiLogoWordpress, BiLogoTailwindCss, BiLogoTypescript, BiLogoShopify } from "react-icons/bi";
 import { TbBrandNextjs, TbApi, TbDatabase, TbBrandPrisma } from "react-icons/tb";
 import { SiThemoviedatabase, SiExpress } from "react-icons/si";
 
@@ -49,13 +49,13 @@ const ProjectsData = [
     demo: "",
   },
   {
-    id: "8",
-    name: "Blog Application",
-    image: "./blog-app.png",
-    icons: [TbBrandNextjs, BiLogoTailwindCss, BiLogoMongodb,TbBrandPrisma],
-    description: "This application allows users to express their thoughts and experiences through blogs.",
-    github: "https://github.com/VijayKumarReddyTalakola/Blog-Application",
-    demo: "https://write-ur-blog.vercel.app",
+    id: "6",
+    name: "The Meal Prep Co",
+    image: "./Screenshot_2.png",
+    icons: [ BiLogoWordpress],
+    description: "Built on WordPress, the site offers a seamless user experience with features like weekly rotating menus, easy meal customization, location-based delivery info, and subscription options.",
+    github: "",
+    demo: "https://themealprepco.com",
   },
 ];
 
