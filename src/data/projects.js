@@ -1,6 +1,6 @@
-import { BiLogoCss3, BiLogoFirebase, BiLogoMongodb, BiLogoReact, BiLogoWordpress, BiLogoTailwindCss, BiLogoTypescript, BiLogoShopify } from "react-icons/bi";
+import { BiLogoCss3, BiLogoFirebase, BiLogoMongodb, BiLogoReact, BiLogoWordpress, BiLogoTailwindCss, BiLogoTypescript, BiLogoShopify, BiLogoJavascript } from "react-icons/bi";
 import { TbBrandNextjs, TbApi, TbDatabase, TbBrandPrisma } from "react-icons/tb";
-import { SiThemoviedatabase, SiExpress } from "react-icons/si";
+import { SiThemoviedatabase, SiExpress, SiSupabase } from "react-icons/si";
 
 const ProjectsData = [
   {
@@ -56,6 +56,33 @@ const ProjectsData = [
     description: "Built on WordPress, the site offers a seamless user experience with features like weekly rotating menus, easy meal customization, location-based delivery info, and subscription options.",
     github: "",
     demo: "https://themealprepco.com",
+  },
+  {
+    id: "7",
+    name: "CoinEcho",
+    image: "./CoinEcho.png",
+    icons: [ BiLogoReact, BiLogoTypescript, BiLogoFirebase],
+    description: "Get AI insights and stay ahead in the fast-moving world of digital assets with real-time cryptocurrency updates and analysis.",
+    github: "",
+    demo: "https://coinecho.pages.dev/",
+  },
+  {
+    id: "8",
+    name: "The wild Oasis Admin",
+    image: "./wild oasis.png",
+    icons: [ BiLogoReact, BiLogoJavascript, BiLogoTailwindCss],
+    description: "An admin dashboard to manage the wild oasis hotel reservations website",
+    github: "https://github.com/Tyrell589/the-wild-oasis",
+    demo: "https://the-wild-oasis-nevo.vercel.app/",
+  },
+  {
+    id: "9",
+    name: "The wild Oasis",
+    image: "./wild oasis_user.png",
+    icons: [ BiLogoReact, BiLogoJavascript, BiLogoTailwindCss, SiSupabase],
+    description: "A hotel reservations website",
+    github: "https://github.com/Tyrell589/the-wild-oasis-website",
+    demo: "https://nevo-the-wild-oasis-website.vercel.app/",
   },
 ];
 
