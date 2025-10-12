@@ -68,8 +68,32 @@ const SkillsData = [
     image: require("../assets/Images/git.png"),
   },
   {
-    name: "GitHub",
-    image: require("../assets/Images/github.png"),
+    name: "AWS",
+    image: require("../assets/Images/aws.png"),
+  },
+  {
+    name: "Docker",
+    image: require("../assets/Images/docker.png"),
+  },
+  {
+    name: "Huggingface",
+    image: require("../assets/Images/huggingface.png"),
+  },
+  {
+    name: "Langchain",
+    image: require("../assets/Images/langchain.png"),
+  },
+  {
+    name: "Langgraph",
+    image: require("../assets/Images/langgraph.png"),
+  },
+  {
+    name: "Pytorch",
+    image: require("../assets/Images/pytorch.png"),
+  },
+  {
+    name: "Tensorflow",
+    image: require("../assets/Images/tensorflow.png"),
   },
 ];
 
